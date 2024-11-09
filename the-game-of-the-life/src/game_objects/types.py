@@ -1,0 +1,1 @@
+Dimensions = tuple[int, int]
