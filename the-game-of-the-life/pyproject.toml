@@ -2,6 +2,7 @@
 name = "the-game-of-the-life"
 authors = [
   {name="Juan Preciado", email="jdiegopm12@gmail.com"},
+  {name="Angel Palacio", email="angel.data.dev@gmail.com"}
 ]
 
 [tool.poetry]
@@ -10,7 +11,7 @@ version = "0.1.0"
 description = "Conway's Game of Life"
 authors = [
   "Juan Preciado <jdiegopm12@gmail.com>",
-  "Angel Palacios <>",
+  "Angel Palacio <angel.data.dev@gmail.com>",
 ]
 readme = "README.md"
 package-mode = false
@@ -23,3 +24,4 @@ numpy = "^2.1.3"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
