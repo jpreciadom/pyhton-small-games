@@ -1,0 +1,25 @@
+[project]
+name = "the-game-of-the-life"
+authors = [
+  {name="Juan Preciado", email="jdiegopm12@gmail.com"},
+]
+
+[tool.poetry]
+name = "the-game-of-the-life"
+version = "0.1.0"
+description = "Conway's Game of Life"
+authors = [
+  "Juan Preciado <jdiegopm12@gmail.com>",
+  "Angel Palacios <>",
+]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pygame = "^2.6.1"
+numpy = "^2.1.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
